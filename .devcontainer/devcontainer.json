@@ -1,0 +1,23 @@
+{
+  "name": "Data Processing Automation",
+  "dockerFile": "Dockerfile",
+  "appPort": [9000],
+  "runArgs": [
+    "-u", "vscode",
+    "-v", "${localWorkspaceFolder}/.ssh:/root/.ssh-localhost:ro",
+    "-p", "10000:10000",
+    "-p", "10001:10001"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": ".devcontainer/postCommands.sh",
+  "extensions": [
+    "ms-python.python",
+    "donjayamanne.githistory",
+    "ms-azuretools.vscode-docker",
+    "esbenp.prettier-vscode",
+    "ms-azuretools.vscode-azurefunctions",
+    "ms-vscode.azure-account"
+  ]
+}
