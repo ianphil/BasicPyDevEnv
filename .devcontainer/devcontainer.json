@@ -18,6 +18,7 @@
     "ms-azuretools.vscode-docker",
     "esbenp.prettier-vscode",
     "ms-azuretools.vscode-azurefunctions",
-    "ms-vscode.azure-account"
+    "ms-vscode.azure-account",
+    "Remisa.shellman"
   ]
 }
