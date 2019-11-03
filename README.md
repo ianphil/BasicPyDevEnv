@@ -5,3 +5,9 @@ The contents of this repo contain a simple boiler plate repo. The magic is in th
 ![image](https://user-images.githubusercontent.com/17349002/68078504-390f8a00-fdad-11e9-9c12-84d4a50b8e07.png)
 
 More detail about [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers)
+
+# Usage
+
+We use SSH for our git push/pulls. Create a .ssh folder in the root of this repo, put valid keys in this folder. This is the only real requirement. Then...
+
+Open VSCode and in the bottom right click the green "remote connection" `><` button. Select `open remote container folder` and browse to this repo. VSCode will do the rest.

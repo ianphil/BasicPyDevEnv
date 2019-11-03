@@ -1,5 +1,5 @@
 {
-  "name": "Data Processing Automation",
+  "name": "Basic Py Dev Environment",
   "dockerFile": "Dockerfile",
   "appPort": [9000],
   "runArgs": [
